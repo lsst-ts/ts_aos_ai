@@ -1,0 +1,2 @@
+tarts/model/* filter=lfs diff=lfs merge=lfs -text
+ai_donut/model/* filter=lfs diff=lfs merge=lfs -text
