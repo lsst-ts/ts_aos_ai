@@ -1,0 +1,5 @@
+[project]
+name = "ts_aos_ai"
+description = "Versioned storage for Rubin Observatory AOS AI model weights (AIDonut and TARTS)"
+license = { text = "GPL" }
+urls = { source_code = "https://github.com/lsst-ts/ts_aos_ai" }

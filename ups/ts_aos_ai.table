@@ -1,0 +1,11 @@
+# ts_aos_ai: versioned storage for the Rubin AOS AI model weights
+# (AIDonut and TARTS), stored with git-lfs.
+#
+# This is a data-only package: it has no code dependencies and nothing to
+# build. Setting it up (e.g. `setup -r .` from a checkout, or
+# `setup ts_aos_ai` once declared) exports the model data directories that the
+# AOS pipelines reference.
+#
+# ${PRODUCT_DIR} is the package directory; EUPS also exports TS_AOS_AI_DIR.
+envSet(AI_DONUT_DATA_DIR, ${PRODUCT_DIR}/ai_donut/model)
+envSet(TARTS_DATA_DIR, ${PRODUCT_DIR}/tarts/model)
