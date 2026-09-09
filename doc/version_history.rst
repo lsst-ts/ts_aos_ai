@@ -14,3 +14,11 @@ Version History
    Do not remove the following comment line.
 
 .. towncrier release notes start
+
+v0.1.0 (2026-09-09)
+===================
+
+Other Changes and Additions
+---------------------------
+
+- Added standard Telescope and Site repository boilerplate: pre-commit configuration (`.pre-commit-config.yaml`, `.ts_pre_commit_config.yaml`, `.ruff.toml`, `.mypy.ini`), license headers (`.LICENSE.txt`, `COPYRIGHT`), towncrier-based version history (`towncrier.toml`, `doc/`), packaging/build files (`pyproject.toml`, `setup.cfg`, `SConstruct`, `ups/ts_aos_ai.table`), the `Jenkinsfile`, and GitHub lint/news workflows. (`RSO-923 <https://rubinobs.atlassian.net//browse/RSO-923>`_)
