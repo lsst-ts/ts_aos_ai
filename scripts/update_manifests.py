@@ -2,6 +2,24 @@
 # This file is part of ts_aos_ai.
 #
 # Developed for the Vera C. Rubin Observatory Telescope and Site Systems.
+# This product includes software developed by the LSST Project
+# (https://www.lsst.org).
+# See the COPYRIGHT file at the top-level directory of this distribution
+# for details of code ownership.
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program. If not, see <https://www.gnu.org/licenses/>.
+
 """Regenerate the model manifests from the model files on disk.
 
 This walks the model directories, computes a SHA-256 digest and byte size for
@@ -92,10 +110,7 @@ def build_manifest() -> dict:
 
     if TARTS_MODEL_DIR.is_dir():
         for version_dir in sorted(p for p in TARTS_MODEL_DIR.iterdir() if p.is_dir()):
-            entries = {
-                path.name: entry_for(path)
-                for path in find_files(version_dir, TARTS_PATTERNS)
-            }
+            entries = {path.name: entry_for(path) for path in find_files(version_dir, TARTS_PATTERNS)}
             if entries:
                 manifest["tarts"][version_dir.name] = entries
 
