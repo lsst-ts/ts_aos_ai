@@ -32,6 +32,7 @@ a pointer stub in place).
 import argparse
 import hashlib
 import sys
+from collections.abc import Iterator
 from pathlib import Path
 
 import yaml
@@ -48,7 +49,7 @@ def sha256(path: Path, chunk_size: int = 1 << 20) -> str:
     return hasher.hexdigest()
 
 
-def iter_entries(manifest: dict):
+def iter_entries(manifest: dict) -> Iterator[tuple[str, dict]]:
     """Yield every ``(name, entry)`` pair across ai_donut and tarts."""
     for name, entry in manifest.get("ai_donut", {}).items():
         yield name, entry

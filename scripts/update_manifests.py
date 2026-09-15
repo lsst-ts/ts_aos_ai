@@ -43,6 +43,7 @@ per-bump workflow).
 import argparse
 import datetime
 import hashlib
+from collections.abc import Iterator
 from pathlib import Path
 
 import yaml
@@ -124,7 +125,7 @@ def write_yaml(path: Path, data: dict) -> None:
         yaml.safe_dump(data, f, sort_keys=True, default_flow_style=False)
 
 
-def iter_manifest_files(manifest: dict):
+def iter_manifest_files(manifest: dict) -> Iterator[tuple[str, str, str, dict]]:
     """Yield ``(method, version, filename, entry)`` for every model file.
 
     The ``version`` is the label used to identify the model in the history
