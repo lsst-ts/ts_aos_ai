@@ -15,6 +15,15 @@ Version History
 
 .. towncrier release notes start
 
+v0.2.0 (2026-09-18)
+===================
+
+New Features
+------------
+
+- Store the AiDonut and TARTS model weights under git-lfs, with `models.yaml` (a manifest of the current model files), an append-only `model_history.yaml` ledger mapping content hash to model version (for tracing on-sky runs), an EUPS table exporting `AI_DONUT_DATA_DIR`/`TARTS_DATA_DIR`, and `scripts/` to regenerate the manifests, verify checksums, and strip training-only state from Lightning checkpoints (TARTS v4 ~554 MB -> ~177 MB). (`RSO-821 <https://rubinobs.atlassian.net//browse/RSO-821>`_)
+
+
 v0.1.0 (2026-09-09)
 ===================
 
