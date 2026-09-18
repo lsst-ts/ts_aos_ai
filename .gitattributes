@@ -1,2 +1,7 @@
-tarts/model/* filter=lfs diff=lfs merge=lfs -text
-ai_donut/model/* filter=lfs diff=lfs merge=lfs -text
+# Store model weight files with git-lfs. Patterns are scoped by extension so
+# that generated text files (checksums.yaml) and .gitkeep placeholders are NOT
+# tracked by LFS. The "**/" allows model files at any depth (e.g. the direct
+# children of ai_donut/model and the tarts/model/<version>/ subdirectories).
+ai_donut/model/**/*.pt filter=lfs diff=lfs merge=lfs -text
+tarts/model/**/*.ckpt filter=lfs diff=lfs merge=lfs -text
+tarts/model/**/*.joblib filter=lfs diff=lfs merge=lfs -text
