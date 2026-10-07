@@ -3,6 +3,14 @@
 # never removed. Use it to trace a hash recorded in butler provenance back
 # to the model version that produced it. The 'notes' field is free for
 # manual annotation (e.g. the git tag a version shipped under).
+195e6132a752655351bb6c7ad2a5cb15ea3347f040bc018bd3c9c97fad6774bb:
+  file: aidonut_binned_v2_20261007.pt
+  first_recorded: '2026-10-07'
+  method: ai_donut
+  notes: ''
+  path: ai_donut/model/aidonut_binned_v2_20261007.pt
+  size: 47941013
+  version: aidonut_binned_v2_20261007
 209ef3f9d80682201e13defaa2f78d6155d3c1600e1223524a3e65cb8c8a410e:
   file: aidonut_binned_v1_20260903.pt
   first_recorded: '2026-09-04'
