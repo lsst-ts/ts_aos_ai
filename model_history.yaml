@@ -59,3 +59,11 @@ f796704ad413ecc089c045a1ddee7ed516f56e009d5f8086bab6c22cb1ec34a3:
   path: ai_donut/model/aidonut_unbinned_v1_20260903.pt
   size: 47940949
   version: aidonut_unbinned_v1_20260903
+fccaaabd2d76931ba09aba0a4d2b89dab7663e70c3fef6fd1a76fa3f5288e9e9:
+  file: aidonut_unbinned_v2_20261016.pt
+  first_recorded: '2026-10-19'
+  method: ai_donut
+  notes: ''
+  path: ai_donut/model/aidonut_unbinned_v2_20261016.pt
+  size: 47940949
+  version: aidonut_unbinned_v2_20261016
