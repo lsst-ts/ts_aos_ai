@@ -7,7 +7,7 @@
   file: aidonut_binned_v2_20261007.pt
   first_recorded: '2026-10-07'
   method: ai_donut
-  notes: ''
+  notes: 'Model created with training data from select nights over 9 months'
   path: ai_donut/model/aidonut_binned_v2_20261007.pt
   size: 47941013
   version: aidonut_binned_v2_20261007
@@ -63,7 +63,7 @@ fccaaabd2d76931ba09aba0a4d2b89dab7663e70c3fef6fd1a76fa3f5288e9e9:
   file: aidonut_unbinned_v2_20261016.pt
   first_recorded: '2026-10-19'
   method: ai_donut
-  notes: ''
+  notes: 'Model created with training data from select nights over 9 months'
   path: ai_donut/model/aidonut_unbinned_v2_20261016.pt
   size: 47940949
   version: aidonut_unbinned_v2_20261016
