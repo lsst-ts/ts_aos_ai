@@ -15,6 +15,18 @@ Version History
 
 .. towncrier release notes start
 
+v0.3.0 (2026-10-19)
+===================
+
+New Features
+------------
+
+- Update the binned and unbinned AiDonut models to
+  `aidonut_binned_v2_20261007.pt` and `aidonut_unbinned_v2_20261016.pt`,
+  regenerating `models.yaml` and appending the new content hashes to the
+  `model_history.yaml` ledger. (`RSO-1060 <https://rubinobs.atlassian.net//browse/RSO-1060>`_)
+
+
 v0.2.0 (2026-09-18)
 ===================
 
