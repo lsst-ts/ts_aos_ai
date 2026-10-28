@@ -7,7 +7,7 @@
   file: aidonut_binned_v2_20261007.pt
   first_recorded: '2026-10-07'
   method: ai_donut
-  notes: 'Model created with training data from select nights over 9 months'
+  notes: Model created with training data from select nights over 9 months
   path: ai_donut/model/aidonut_binned_v2_20261007.pt
   size: 47941013
   version: aidonut_binned_v2_20261007
@@ -43,6 +43,14 @@ bae67f57c6d8a799f1a586ad5b5a9b4e43fff5b765b92d913e5c8f11dda0f89c:
   path: tarts/model/v4/best_alignnet_120.ckpt
   size: 11819697
   version: v4
+e621757fd333297b39796968314be98ddc0d346fb658c3955c8f9a94c712b4ee:
+  file: aidonut_unpaired_binned_v1_20261028.pt
+  first_recorded: '2026-10-28'
+  method: ai_donut
+  notes: ''
+  path: ai_donut/model/aidonut_unpaired_binned_v1_20261028.pt
+  size: 47943363
+  version: aidonut_unpaired_binned_v1_20261028
 f440caa81de8774c64641ab1afbc3a3b5366712f950eccf3ba400d806d3c6066:
   file: best_finetuned_wavennet_coral.ckpt
   first_recorded: '2026-09-04'
@@ -63,7 +71,7 @@ fccaaabd2d76931ba09aba0a4d2b89dab7663e70c3fef6fd1a76fa3f5288e9e9:
   file: aidonut_unbinned_v2_20261016.pt
   first_recorded: '2026-10-19'
   method: ai_donut
-  notes: 'Model created with training data from select nights over 9 months'
+  notes: Model created with training data from select nights over 9 months
   path: ai_donut/model/aidonut_unbinned_v2_20261016.pt
   size: 47940949
   version: aidonut_unbinned_v2_20261016

@@ -8,7 +8,11 @@ ai_donut:
     path: ai_donut/model/aidonut_unbinned_v2_20261016.pt
     sha256: fccaaabd2d76931ba09aba0a4d2b89dab7663e70c3fef6fd1a76fa3f5288e9e9
     size: 47940949
-generated: '2026-10-19T18:35:02+00:00'
+  aidonut_unpaired_binned_v1_20261028.pt:
+    path: ai_donut/model/aidonut_unpaired_binned_v1_20261028.pt
+    sha256: e621757fd333297b39796968314be98ddc0d346fb658c3955c8f9a94c712b4ee
+    size: 47943363
+generated: '2026-10-28T18:12:22+00:00'
 tarts:
   v4:
     best_aggregator_coral_rotate_mrsse.ckpt:
